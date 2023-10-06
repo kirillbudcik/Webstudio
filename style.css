@@ -1,0 +1,56 @@
+/* footer{
+
+    background-color: #2F303A;
+}
+
+li > button {
+
+    color: #F5F4FA;
+
+}
+
+img > h4 {
+
+    color: #212121;
+
+}
+
+h4 + p {
+
+    color: #757575;
+
+}
+
+h1 + button{
+
+    color: #2196F3;
+
+}
+
+img + h5{
+
+    color: #212121;
+
+}
+
+h5 + p{
+
+    color: #757575 ;
+
+}
+
+.hero {
+
+    background-color: #F5F4FA;
+
+} */
+
+:root{
+    
+    --text-color: #212121;
+    --content-color: #757575;
+    --overlay-color: #2196F3;
+    --footer-color: #2F303A;
+    --button-color: #F5F4FA;
+
+}
