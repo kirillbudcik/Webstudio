@@ -17,16 +17,24 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    letter-spacing: 2.64px;
     color: var(--texts-color);
+}
+
+.nav-title:hover {
+    color: #2196F3;
 }
 
 .nav-address {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.28px;
     color: var(--contents-color);
+}
+
+.nav-address:hover {
+    color: #2196F3;
 }
 
 .advertising-title {
@@ -36,7 +44,7 @@ font-size: 44px;
 font-style: normal;
 font-weight: 900;
 line-height: 1.36; 
-letter-spacing: 0.06em;
+letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 
@@ -49,11 +57,11 @@ text-transform: uppercase;
     text-align: center;
 }
 
-.advertising-title {
+.advertising-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.42px;
     text-transform: uppercase;
     color: var(--texts-color);
 }
@@ -62,7 +70,7 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.42px;
     color: var(--contents-color);
 }
 
@@ -71,7 +79,7 @@ text-transform: uppercase;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 1.08px;
     color: var(--texts-color);
 }
 
@@ -81,7 +89,7 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
-letter-spacing: 0.03em;
+letter-spacing: 1.08px;
 }
 
 .about-worker {
@@ -90,7 +98,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.18;
-letter-spacing: 0.03em;
+letter-spacing: 0.48px;
 }
 
 
@@ -100,7 +108,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.18;
-letter-spacing: 0.03em;
+letter-spacing: 0.48px;
 }
 
 
@@ -110,7 +118,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7; 
-    letter-spacing: 0.03em;
+    letter-spacing: 0.42px;
 }
 
 .basement-email {
@@ -120,7 +128,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.42px;
 }
 
 .basement-tel {
@@ -130,7 +138,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.42px;
 }
 
 .navigation-title {
@@ -138,7 +146,11 @@ letter-spacing: 0.03em;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
-letter-spacing: 0.02em;
+letter-spacing: 0.28px;
+}
+
+.navigation-title:hover {
+    color: #2196F3;
 }
 
 .navigation-address {
@@ -146,7 +158,11 @@ letter-spacing: 0.02em;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.14;
-letter-spacing: 0.02em;
+letter-spacing: 0.28px;
+}
+
+.navigation-address:hover {
+    color: #2196F3;
 }
 
 .works-button {
@@ -155,15 +171,18 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.6;
-letter-spacing: 0.03em;
+letter-spacing: 0.48px;
 }
 
+.works-button:hover
+    color:#FFFFFF ;
+    border: none;
 .workers-title {
     color: var(--texts-color);
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
-letter-spacing: 0.06em;
+letter-spacing: 1.08px;
 }
 
 .workers-text {
