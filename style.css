@@ -16,7 +16,7 @@ body {
 .nav-title {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: normal;
     letter-spacing: 2.64px;
     color: var(--texts-color);
 }
@@ -28,7 +28,7 @@ body {
 .nav-address {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: normal;
     letter-spacing: 0.28px;
     color: var(--contents-color);
 }
@@ -41,7 +41,6 @@ body {
     color: #FFF;
 text-align: center;
 font-size: 44px;
-font-style: normal;
 font-weight: 900;
 line-height: 1.36; 
 letter-spacing: 2.64px;
@@ -52,7 +51,7 @@ text-transform: uppercase;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.96px;
     text-align: center;
 }
@@ -60,7 +59,7 @@ text-transform: uppercase;
 .advertising-text {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     color: var(--texts-color);
@@ -77,7 +76,7 @@ text-transform: uppercase;
 .about-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: normal;
     text-align: center;
     letter-spacing: 1.08px;
     color: var(--texts-color);
@@ -88,7 +87,7 @@ text-transform: uppercase;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.16;
+line-height: normal;
 letter-spacing: 1.08px;
 }
 
@@ -97,7 +96,7 @@ letter-spacing: 1.08px;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
-line-height: 1.18;
+line-height: normal;
 letter-spacing: 0.48px;
 }
 
@@ -107,7 +106,7 @@ letter-spacing: 0.48px;
 text-align: center;
 font-size: 16px;
 font-weight: 400;
-line-height: 1.18;
+line-height: normal;
 letter-spacing: 0.48px;
 }
 
@@ -145,7 +144,7 @@ letter-spacing: 0.48px;
     color: var(--texts-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 1.14;
+line-height: normal;
 letter-spacing: 0.28px;
 }
 
@@ -157,7 +156,7 @@ letter-spacing: 0.28px;
     color: var(--contents-color);
 font-size: 14px;
 font-weight: 500;
-line-height: 1.14;
+line-height: normal;
 letter-spacing: 0.28px;
 }
 
@@ -175,8 +174,9 @@ letter-spacing: 0.48px;
 }
 
 .works-button:hover
-    color:#FFFFFF ;
+    color: #FFF ;
     border: none;
+
 .workers-title {
     color: var(--texts-color);
 font-size: 18px;
