@@ -219,3 +219,43 @@ letter-spacing: 0.48px;
     line-height: 1.7;
     letter-spacing: 0.42px;
 }
+
+.basement-first {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138,46%;
+    letter-spacing: 0.78px;
+}
+
+.nav-first {
+    color: #2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 138,46%;
+letter-spacing: 0.78px;
+}
+
+.basement-second {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 138,46%;
+letter-spacing: 0.78px;
+}
+
+.nav-second {
+    color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 138,46%;
+letter-spacing: 0.78px;
+}
