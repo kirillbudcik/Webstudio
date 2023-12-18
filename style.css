@@ -182,8 +182,7 @@ letter-spacing: 0.48px;
 }
 
 .works-button:hover
-    color: #FFF ;
-    border: none;
+
 
 .workers-title {
     color: var(--texts-color);
