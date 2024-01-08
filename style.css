@@ -7,8 +7,18 @@
 }
 
 
-:root{
-    
+.nav-head {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+:root {
+
     --texts-color: #212121;
     --contents-color: #757575;
     --overlay-color: #2196F3;
@@ -27,10 +37,20 @@ body {
     line-height: normal;
     letter-spacing: 2.64px;
     color: var(--texts-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-left: 334px;
 }
 
 .nav-title:hover {
     color: #2196F3;
+}
+
+.advertising {
+    background: var(--footer-color);
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .nav-address {
@@ -47,21 +67,33 @@ body {
 
 .advertising-title {
     color: #FFF;
-text-align: center;
-font-size: 44px;
-font-weight: 900;
-line-height: 1.36; 
-letter-spacing: 2.64px;
-text-transform: uppercase;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-left: 273px;
+    margin-right: 273px;
+    margin-bottom: 30px;
 }
 
 .advertising-order {
-    color: #FFF;
+    color: var(--buttons-color);
+    background: var(--overlay-color);
+    width: 216px;
+    height: 50px;
     font-size: 16px;
-    font-weight: 700;
-    line-height: 1.8;
-    letter-spacing: 0.96px;
-    text-align: center;
+    line-height: 1.9;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 7px;
+}
+
+
+.advertising {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .advertising-text {
@@ -71,6 +103,7 @@ text-transform: uppercase;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     color: var(--texts-color);
+    margin-bottom: 10px;
 }
 
 .advertising-information {
@@ -81,6 +114,22 @@ text-transform: uppercase;
     color: var(--contents-color);
 }
 
+.advertising-attention {
+    display: flex;
+    gap: 30px;
+}
+
+.about {
+    padding-bottom: 94px;
+}
+
+.team-about {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--buttons-color);
+}
+
+
 .about-title {
     font-weight: 700;
     font-size: 36px;
@@ -88,54 +137,78 @@ text-transform: uppercase;
     text-align: center;
     letter-spacing: 1.08px;
     color: var(--texts-color);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .about-headline {
     color: var(--texts-color);
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .about-worker {
     color: var(--texts-color);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+    padding-top: 30px;
 }
 
 
 .about-work {
     color: var(--contents-color);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+    padding-bottom: 30px;
 }
 
+.about-img {
+    width: 270px;
+    height: 260px;
+}
+
+.about-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basement {
+    background: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .basement-address {
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.7; 
+    line-height: 1.7;
     letter-spacing: 0.42px;
 }
 
 .basement-email {
     color: rgba(255, 255, 255, 0.60);
-
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.42px;
+    margin-top: 9px;
 }
 
 .basement-tel {
@@ -146,14 +219,15 @@ letter-spacing: 0.48px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.42px;
+    margin-top: 9px;
 }
 
 .navigation-title {
     color: var(--texts-color);
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .navigation-title:hover {
@@ -162,10 +236,10 @@ letter-spacing: 0.28px;
 
 .navigation-address {
     color: var(--contents-color);
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .navigation-address:hover {
@@ -174,30 +248,27 @@ letter-spacing: 0.28px;
 
 .works-button {
     color: var(--texts-color);
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.6;
-letter-spacing: 0.48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.48px;
 }
 
-.works-button:hover
-
-
-.workers-title {
+.works-button:hover .workers-title {
     color: var(--texts-color);
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
-letter-spacing: 1.08px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
 }
 
 .workers-text {
     color: var(--contents-color);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.87;
-letter-spacing: 0.48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.48px;
 }
 
 .cellar-street {
@@ -233,36 +304,36 @@ letter-spacing: 0.48px;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 138,46%;
+    line-height: 138, 46%;
     letter-spacing: 0.78px;
 }
 
 .nav-first {
     color: #2196F3;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 138,46%;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138, 46%;
+    letter-spacing: 0.78px;
 }
 
 .basement-second {
     color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 138,46%;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138, 46%;
+    letter-spacing: 0.78px;
 }
 
 .nav-second {
     color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 138,46%;
-letter-spacing: 0.78px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 138, 46%;
+    letter-spacing: 0.78px;
 }
