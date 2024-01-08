@@ -1,76 +1,100 @@
+:root {
+    --text-color: #212121;
+    --content-color: hsl(0, 0%, 46%);
+    --overlay-color: #2196F3;
+    --footer-color: #2F303A;
+    --button-color: #F5F4FA;
+
+}
+
+.body {
+    font-family: Roboto;
+}
+
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: solid darkorchid;
+    outline: solid darkblue;
 }
 
-
-.nav-head {
+.head {
     padding-top: 24px;
     padding-bottom: 25px;
 }
 
-.nav-container {
+.head-container {
     display: flex;
     align-items: center;
 }
 
-:root {
 
-    --texts-color: #212121;
-    --contents-color: #757575;
-    --overlay-color: #2196F3;
-    --footer-color: #2F303A;
-    --buttons-color: #F5F4FA;
-
+.head-logo {
+    color: var(--overlay-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.78px;
 }
 
-body {
-    font-family: 'Roboto';
+.head-logo-color {
+    color: var(--text-color);
 }
 
-.nav-title {
-    font-weight: 500;
+.head-list {
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
+}
+
+.head-link {
+    color: var(--text-color);
     font-size: 14px;
-    line-height: normal;
-    letter-spacing: 2.64px;
-    color: var(--texts-color);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+}
+
+.head-link:hover {
+    color: var(--overlay-color);
+}
+
+.head-contacts {
     display: flex;
     justify-content: flex-end;
     gap: 50px;
     margin-left: 334px;
 }
 
-.nav-title:hover {
-    color: #2196F3;
+
+.head-contact {
+    color: var(--content-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.28px;
+}
+
+.head-contact:hover {
+    color: var(--overlay-color);
 }
 
 .advertising {
     background: var(--footer-color);
     padding-bottom: 200px;
     padding-top: 200px;
+
 }
 
-.nav-address {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    color: var(--contents-color);
-}
-
-.nav-address:hover {
-    color: #2196F3;
-}
 
 .advertising-title {
-    color: #FFF;
+    color: var(--button-color);
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    line-height: 1.36;
+    line-height: 1.4;
     letter-spacing: 2.64px;
     text-transform: uppercase;
     margin-left: 273px;
@@ -78,8 +102,14 @@ body {
     margin-bottom: 30px;
 }
 
-.advertising-order {
-    color: var(--buttons-color);
+.button-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.advertising-button {
+    color: var(--button-color);
     background: var(--overlay-color);
     width: 216px;
     height: 50px;
@@ -90,72 +120,88 @@ body {
     border-radius: 7px;
 }
 
-
-.advertising {
+.care {
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
-.advertising-text {
-    font-weight: 700;
+.care-list {
+    display: flex;
+    gap: 30px;
+}
+
+.care-title {
+    color: var(--text-color);
     font-size: 14px;
-    line-height: normal;
+    font-weight: 700;
+    line-height: 1.1;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    color: var(--texts-color);
     margin-bottom: 10px;
 }
 
-.advertising-information {
-    font-weight: 400;
+.care-text {
+    color: var(--content-color);
     font-size: 14px;
+    font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.42px;
-    color: var(--contents-color);
-}
-
-.advertising-attention {
-    display: flex;
-    gap: 30px;
 }
 
 .about {
     padding-bottom: 94px;
 }
 
-.team-about {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: var(--buttons-color);
+.about-list {
+    display: flex;
+    justify-content: space-between;
 }
-
 
 .about-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: normal;
-    text-align: center;
-    letter-spacing: 1.08px;
-    color: var(--texts-color);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-
-.about-headline {
-    color: var(--texts-color);
-    text-align: center;
+    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.2;
     letter-spacing: 1.08px;
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.about-worker {
-    color: var(--texts-color);
+.colleagues {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--button-color);
+}
+
+.colleagues-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colleagues-picture {
+    width: 270px;
+    height: 260px;
+}
+
+.colleagues-containre {
+    background-color: #FFF;
+}
+
+.colleagues-tytle {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.colleagues-worker {
+    color: var(--text-color);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -164,26 +210,15 @@ body {
     padding-top: 30px;
 }
 
-
-.about-work {
-    color: var(--contents-color);
+.colleagues-text {
+    color: var(--content-color);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.2;
     letter-spacing: 0.48px;
     margin-top: 10px;
     padding-bottom: 30px;
-}
-
-.about-img {
-    width: 270px;
-    height: 260px;
-}
-
-.about-table {
-    display: flex;
-    justify-content: space-between;
 }
 
 .basement {
@@ -192,34 +227,39 @@ body {
     padding-bottom: 60px;
 }
 
+.basement-logo {
+    color: var(--overlay-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.78px;
+    margin-bottom: 20px;
+}
+
+
+
+.basement-logo-color {
+    color: var(--button-color);
+}
+
 .basement-address {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+}
+
+.basement-address-special {
     color: #FFF;
-    font-family: Roboto;
+    font-style: normal;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.42px;
-}
-
-.basement-email {
-    color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.42px;
-    margin-top: 9px;
-}
-
-.basement-tel {
-    color: rgba(255, 255, 255, 0.60);
-
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.7;
-    letter-spacing: 0.42px;
-    margin-top: 9px;
 }
 
 .navigation-title {
