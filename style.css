@@ -149,6 +149,26 @@
     letter-spacing: 0.42px;
 }
 
+.about {
+    padding-bottom: 94px;
+}
+
+.about-title {
+    color: var(--text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .colleagues {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -223,8 +243,8 @@
 }
 
 .base-button:hover {
- background: var(--overlay-color);
- color: var(--button-color);
+    background: var(--overlay-color);
+    color: var(--button-color);
 }
 
 .base-poster {
@@ -237,49 +257,49 @@
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.base-containre{
+.base-containre {
     padding-left: 24px;
-border: 1px solid #EEE;
+    border: 1px solid #EEE;
 
 }
 
 
-.base-picture{
-width: 370px;
-height: 294px;
+.base-picture {
+    width: 370px;
+    height: 294px;
 }
 
 
-.base-name{
+.base-name {
     color: var(--text-color);
-width: 332px;
-font-size: 18px;
-font-weight: 700;
-line-height: 2; 
-letter-spacing: 1.08px;
-margin-bottom: 4px;
-padding-top: 20px;
+    width: 332px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 1.08px;
+    margin-bottom: 4px;
+    padding-top: 20px;
 
 }
 
-.base-text{
+.base-text {
     color: var(--content-color);
     width: 332px;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.9;
-letter-spacing: 0.48px;
-padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 0.48px;
+    padding-bottom: 20px;
 
 }
 
-.footer{
+.footer {
     background: var(--footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer-logo{
+.footer-logo {
     color: var(--overlay-color);
     font-family: Raleway;
     font-size: 26px;
@@ -295,21 +315,21 @@ padding-bottom: 20px;
     color: var(--button-color);
 }
 
-.footer-address{
+.footer-address {
     color: rgba(255, 255, 255, 0.60);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.7;
-letter-spacing: 0.42px;
-margin-top: 9px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
 }
 
 .footer-addressfavorites {
-    color: #FFF;  
-font-style: normal;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7;
-letter-spacing: 0.42px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
 }
