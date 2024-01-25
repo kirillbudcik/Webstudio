@@ -149,6 +149,42 @@
     letter-spacing: 0.42px;
 }
 
+.care-item:nth-child(1)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../images/care1.png );
+}
+
+.care-item:nth-child(2)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../images/care2.png );
+}
+
+.care-item:nth-child(3)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../images/care3.png );
+}
+
+.care-item:nth-child(4)::before {
+    content: '';
+    display: block;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-image: url(../images/care4.png );
+}
+
 .about {
     padding-bottom: 94px;
 }
