@@ -85,7 +85,7 @@
     background: var(--footer-color);
     padding-bottom: 200px;
     padding-top: 200px;
-
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/bgimage.jpg); 
 }
 
 
@@ -105,7 +105,6 @@
 .button-container {
     display: flex;
     justify-content: center;
-
 }
 
 .advertising-button {
@@ -263,6 +262,10 @@
     letter-spacing: 0.48px;
     margin-top: 10px;
     padding-bottom: 30px;
+}
+
+.colleagues-item {
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .base-buttonlist {
