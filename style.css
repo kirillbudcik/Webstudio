@@ -16,12 +16,12 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: solid darkblue;
 }
 
 .head {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: solid #ECECEC 1px;
 }
 
 .head-container {
@@ -282,11 +282,11 @@
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.6;
-    width: 125px;
     height: 38px;
     flex-shrink: 0;
     border-radius: 7px;
     border: none;
+    padding: 6px 22px;
 }
 
 .base-button:hover {
