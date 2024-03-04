@@ -157,6 +157,7 @@
     background-image: url(./images/care1.png );
     background-position: 50% 50% ;
     background-repeat: no-repeat;
+    background-color: #F5F4FA;
 }
 
 .care-item:nth-child(2)::before {
@@ -168,6 +169,7 @@
     background-image: url(./images/care2.png );
     background-position: 50% 50% ;
     background-repeat: no-repeat;
+    background-color: #F5F4FA;
 }
 
 .care-item:nth-child(3)::before {
@@ -179,6 +181,7 @@
     background-image: url(./images/care3.png );
     background-position: 50% 50% ;
     background-repeat: no-repeat;
+    background-color: #F5F4FA;
 }
 
 .care-item:nth-child(4)::before {
@@ -190,6 +193,7 @@
     background-image: url(./images/care4.png );
     background-position: 50% 50% ;
     background-repeat: no-repeat;
+    background-color: #F5F4FA;
 }
 
 .about {
