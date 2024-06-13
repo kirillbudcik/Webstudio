@@ -1,0 +1,45 @@
+
+.service {
+    padding-bottom: 94px;
+  
+  
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__listitem {
+    position: relative;
+  }
+  
+  &__tytle {
+    color: $text-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  &__containre {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    padding-top: 27px;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  &__text {
+    color: $button-color;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+}

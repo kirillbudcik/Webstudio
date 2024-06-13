@@ -1,0 +1,103 @@
+
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #f5f4fa;
+  
+  
+&__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+&__item {
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+      0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background-color: $button-color;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+&__picture {
+    width: 270px;
+    height: 260px;
+  }
+  
+&__containre {
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+&__tytle {
+    color: $text-color;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1.08px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+&__teammate {
+    color: $text-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+    padding-top: 30px;
+  }
+  
+&__text {
+    color: $content-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+    padding-bottom: 16px;
+  }
+  
+&__list {
+    display: flex;
+    gap: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  
+&__listitem {
+    background-color: white;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    margin-bottom: 30px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+&__logos {
+    fill: #afb1b8;
+    width: 20px;
+    height: 20px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  
+&__listitem:hover &__logos {
+    fill: white;
+  }
+&__listitem:hover {
+    background-color: $overlay-color;
+  }
+  
+&__listitem:focus-within &__logos {
+    fill: white;
+  }
+&__listitem:focus-within {
+    background-color: $overlay-color;
+  }
+}

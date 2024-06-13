@@ -1,0 +1,50 @@
+
+
+
+
+.invitation {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/hero_bacground.webp);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+  
+  
+ &__tytle {
+    color: $button-color;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    margin-left: 273px;
+    margin-right: 273px;
+    margin-bottom: 30px;
+  }
+  
+ &__borders {
+    display: flex;
+    justify-content: center;
+  }
+  
+ &__button {
+    color: $button-color;
+    background: $overlay-color;
+    width: 216px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 1.9;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 7px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+  }
+
+}

@@ -1,0 +1,161 @@
+
+
+.footer {
+    background: $footer-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  
+  &__containre {
+    display: flex;
+  }
+  
+  &__second {
+    padding-top: 12px;
+    margin-left: 70px;
+    margin-right: 93px;
+    width: 206px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+  
+  &__logo {
+    color: $overlay-color;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.78px;
+    margin-bottom: 20px;
+  }
+  
+  &__color {
+    color: $button-color;
+  }
+  
+  &__address {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+    margin-top: 9px;
+  }
+  
+  &__special {
+    color: #fff;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.42px;
+  }
+  
+  &__list {
+    margin-top: 32px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  &__content {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  
+  &__content:hover {
+    background-color: $overlay-color;
+  }
+  
+  &__content:focus-within {
+    background-color: $overlay-color;
+  }
+  
+  &__services {
+    width: 20px;
+    height: 20px;
+    fill: $button-color;
+  }
+  
+  &__encourage {
+    color: $button-color;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+
+  &__form{
+    display: flex;
+    width: 570px;
+  }
+
+  &__text {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+  
+  &__input {
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    outline: none;
+  }
+  
+  &__button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: $overlay-color;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: $overlay-color;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 28px;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: 0.96px;
+  }
+  
+  &__svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: #fff;
+  }
+  
+  
+  &__form {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+}
